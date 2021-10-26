@@ -112,12 +112,12 @@ void loop() {
     delay(100);
     digitalWrite(motorPin3, LOW);
     delay(100);
-  } else if(distance2 > 40 && distance2 <= 60){
+  } else if(distance3 > 40 && distance3 <= 60){
     digitalWrite(motorPin3, HIGH);  
     delay(200);
     digitalWrite(motorPin3, LOW);
     delay(00);
-  } else if(distance2 > 60 && distance2 <= 80){
+  } else if(distance3 > 60 && distance3 <= 80){
     digitalWrite(motorPin3, HIGH);  
     delay(300);
     digitalWrite(motorPin3, LOW);
